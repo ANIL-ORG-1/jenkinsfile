@@ -1,11 +1,11 @@
 node {
     stage('Setup'){
-      load 'setup.groovy'
+      load './setup.groovy'
     }
     stage('Checkout'){
-      load 'checkout.groovy'
+      load './checkout.groovy'
     }
     stage('Email'){
-      load 'email.groovy'
+      load './email.groovy'
     }
   }

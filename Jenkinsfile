@@ -1,6 +1,6 @@
 node {
     stage('Setup'){
-
+        load './setup.groovy'
     }
-    load './setup.groovy'
+    
   }
